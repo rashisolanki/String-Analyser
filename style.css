@@ -1,0 +1,99 @@
+body {
+	background-color: #000000;
+	animation: bg 30s linear infinite;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+@keyframes bg {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 40px;
+    margin-top: 64px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(6, 198, 231);
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.content1{
+    margin-top: -18px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    margin-left: 0px;
+}
+.content2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -22px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.content3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+div> input{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    height: 40px;
+    width: 85%;
+    border-radius: 18px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 18px;
+    color: white;
+    background: rgba(150, 146, 146, 0.65);
+}
+::placeholder{
+    color: rgb(173, 169, 169);
+}
+.output{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.display2, .display1, button {
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 18px;
+    height: 50px;
+    width: 186px;
+    margin: 5px 14px 5px 14px;
+    font-weight: 700;
+}
+button{
+    outline: none;
+    color:rgb(6, 198, 231);
+    box-shadow: inset 0 0 0 2px rgb(6, 198, 231);
+}
+.display1{
+    line-height: 50px;
+    color: white;
+    box-shadow: inset 0 0 0 2px white;
+}
+.display2{
+    line-height: 50px;
+    color: rgb(6, 198, 231);
+    box-shadow: inset 0 0 0 2px rgb(6, 198, 231);
+}
+button:hover{
+    color: white;
+    box-shadow: inset 0 0 0 2px white;
+}
